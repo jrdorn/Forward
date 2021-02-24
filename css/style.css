@@ -1,5 +1,10 @@
+/* med blue */
 /* color: #005aeb; */
+
+/* dark blue */
 /* color: #001959; */
+
+/* off white */
 /* color: #f7f7f7; */
 
 /* Center the title */
@@ -14,8 +19,6 @@ header {
 body {
   line-height: 1;
   font-size: 1.313em;
-  background-image: url("../img/hero.jpg");
-  background-position: center;
 }
 
 /* Image spacing */
