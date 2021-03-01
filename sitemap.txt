@@ -1,0 +1,46 @@
+signup.html
+>facebook or google
+>email
+>login
+
+
+
+login.html
+>login
+>go back to signup
+
+
+
+home.html
+>trips
+>friends list
+>message screen
+>logout button
+
+
+
+friends.html
+>search and add
+
+
+
+messages.html
+>
+
+
+
+trips.html
+>create trip
+>add friends
+>add flights 
+>add activities 
+
+
+
+flights.html
+>
+
+
+
+activities.html 
+>
