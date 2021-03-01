@@ -4,19 +4,18 @@
 /* dark blue */
 /* color: #001959; */
 
-/* off white */
-/* color: #f7f7f7; */
-
 /* || General Setup  */
 
-@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 body {
-  background-color: #e8e4db;
+  background-color: #005aeb;
 }
 
 section {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
 
 html,
@@ -36,42 +35,19 @@ html {
   box-sizing: inherit;
 }
 
-/* || Main Grid layout */
+/* || Initial Grid layout */
 
-.main-head {
+.head {
   grid-area: header;
 }
 
-.main-nav {
-  grid-area: nav;
-}
-
-.carousel {
-  grid-area: carousel;
-}
-
-.story {
-  grid-area: story;
-}
-
-.map {
-  grid-area: map;
-}
-
-.main-footer {
+.footer {
   grid-area: footer;
 }
 
-#index {
+body {
   display: grid;
   gap: 1em;
-  grid-template-areas:
-    "header"
-    "nav"
-    "story"
-    "carousel"
-    "map"
-    "footer";
   grid-template-columns: 100%;
 }
 
@@ -83,22 +59,110 @@ body {
 
 /* || Typography */
 html {
-  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial,
-    sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Indie Flower", Arial, sans-serif;
 }
 
 /* || Signup */
 
+/* signup grid */
+
+#signup {
+  grid-template-areas:
+    "header"
+    "subhead"
+    "socialmedia"
+    "email"
+    "login"
+    "footer";
+}
+
 /* || Login */
+
+/* login grid */
+
+#login {
+  grid-template-areas:
+    "header"
+    "login"
+    "socialmedia"
+    "createacct"
+    "footer";
+}
 
 /* || Home */
 
+/* home grid */
+
+#home {
+  grid-template-areas:
+    "header"
+    "navbar"
+    "destinations"
+    "footer";
+}
+
 /* || Friends */
+
+/* friends grid */
+
+#friends {
+  grid-template-areas:
+    "header"
+    "navbar"
+    "friendlist"
+    "footer";
+}
 
 /* || Messages */
 
+/* messages grid */
+
+#messages {
+  grid-template-areas:
+    "header"
+    "navbar"
+    "messages"
+    "footer";
+}
+
 /* || Trips */
+
+/* trips grid */
+
+#trips {
+  grid-template-areas:
+    "header"
+    "navbar"
+    "create"
+    "popular"
+    "saved"
+    "footer";
+}
 
 /* || Flights */
 
+/* flights grid */
+
+#flights {
+  grid-template-areas:
+    "header"
+    "navbar"
+    "fsearch"
+    "footer";
+}
+
 /* || Activities */
+
+/* activities grid */
+
+#activities {
+  grid-template-areas:
+    "header"
+    "navbar"
+    "asearch"
+    "footer";
+}
