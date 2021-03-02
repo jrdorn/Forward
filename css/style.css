@@ -198,6 +198,20 @@ input {
 
 .textinput {
   margin-bottom: 1.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 0.3em;
+  padding-right: 15em;
+}
+
+#sublabel {
+  font-size: 1.3rem;
+  color: #223973;
+  margin-top: 0.3em;
+}
+
+.label {
+  margin-bottom: 0.5em;
 }
 
 /* || Login */
