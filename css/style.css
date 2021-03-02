@@ -35,7 +35,7 @@ html {
   box-sizing: inherit;
 }
 
-/* || Initial Grid layout */
+/* || Grid layout */
 
 .head {
   grid-area: header;
@@ -43,6 +43,62 @@ html {
 
 .footer {
   grid-area: footer;
+}
+
+.subhead {
+  grid-area: subhead;
+}
+
+.socialmedia {
+  grid-area: socialmedia;
+}
+
+.email {
+  grid-area: email;
+}
+
+.login {
+  grid-area: login;
+}
+
+.createacct {
+  grid-area: createacct;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+
+.destinations {
+  grid-area: destinations;
+}
+
+.friendlist {
+  grid-area: friendlist;
+}
+
+.messages {
+  grid-area: messages;
+}
+
+.create {
+  grid-area: create;
+}
+
+.popular {
+  grid-area: popular;
+}
+
+.saved {
+  grid-area: saved;
+}
+
+.fsearch {
+  grid-area: fsearch;
+}
+
+.asearch {
+  grid-area: asearch;
 }
 
 body {
@@ -60,6 +116,7 @@ body {
 /* || Typography */
 html {
   font-family: "Raleway", Arial, sans-serif;
+  color: #27364c;
 }
 
 h1 {
