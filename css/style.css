@@ -214,6 +214,18 @@ input {
   margin-bottom: 0.5em;
 }
 
+#join {
+  background-color: #ed6404;
+  color: #f7f7f7;
+  padding: 0.5em;
+  padding-left: 7em;
+  padding-right: 7em;
+  border: none;
+  border-radius: 3px;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
 /* || Login */
 
 /* login grid */
