@@ -30,21 +30,30 @@
 
         <!-- email -->
         <section class='email'>
-            <h3>Sign Up with Email</h3>
+            <h3 id='emailhead'>Sign Up with Email</h3>
             <form>
-                <label for="first_name">First name: </label>
-                <input type="text" name="first_name" id="first_name"  required="required">
-
-                <label for="last_name">Last name: </label>
-                <input type="text" name="last_name" id="last_name"  required="required">
-
-                <label for="email">Email: </label>
-                <input type="text" name="email" id="email"  required="required">
-
-                <label for="password">Password: </label>
-                <input type="text" name="password" id="password"  required="required">
+                <div id="formwrap">
+                    <label for="first_name">First name </label>
+                    <input class="textinput" type="text" name="first_name" id="first_name"  required="required">
+    
+                    <label for="last_name">Last name </label>
+                    <input class="textinput" type="text" name="last_name" id="last_name"  required="required">
+    
+                    <label for="email">Email </label>
+                    <input class="textinput" type="text" name="email" id="email"  required="required">
+    
+                    <label for="password">Password </label>
+                    <label for="password" id="sublabel">Must be at least 10 characters</label>
+                    <input class="textinput" type="text" name="password" id="password"  required="required">
+    
+                    <label for="confirmpassword">Confirm password </label>
+                    <input type="text" name="confirmpassword" id="confirmpassword"  required="required">
+    
+                </div>
                 
-                <input type="submit" name="commit" value="Create account">
+                <div id="joinwrap">
+                    <input type="submit" name="commit" id="join" value="Join">
+                </div>
             </form>
         </section>
 
