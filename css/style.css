@@ -1,9 +1,3 @@
-/* med blue */
-/* color: #005aeb; */
-
-/* dark blue */
-/* color: #001959; */
-
 /* || General Setup  */
 
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
@@ -14,7 +8,7 @@ body {
   background-color: #005aeb;
 }
 
-section {
+body > * {
   background-color: #f7f7f7;
 }
 
@@ -23,6 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 10px;
+  color: #001959;
 }
 
 /* alternative box model */
@@ -47,6 +42,10 @@ html {
 
 .subhead {
   grid-area: subhead;
+  background-color: #005aeb;
+  color: #f7f7f7;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .socialmedia {
@@ -121,6 +120,19 @@ html {
 
 h1 {
   font-family: "Indie Flower", Arial, sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 /* || Signup */
@@ -135,6 +147,29 @@ h1 {
     "email"
     "login"
     "footer";
+}
+
+/* Facebook and Google buttons */
+
+.socialmedia {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#fb {
+  color: #f7f7f7;
+  background-color: #3c5997;
+  text-decoration: none;
+  padding: 1em;
+}
+
+#google {
+  color: #f7f7f7;
+  background-color: #de4a32;
+  text-decoration: none;
+  padding: 1em;
+  margin-left: 0.5em;
 }
 
 /* || Login */
