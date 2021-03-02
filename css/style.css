@@ -34,6 +34,7 @@ html {
 
 .head {
   grid-area: header;
+  color: #ed6404;
 }
 
 .footer {
@@ -155,26 +156,37 @@ input {
 
 .socialmedia {
   display: grid;
-  align-items: center;
-  justify-content: center;
+}
+
+.socialmedia > h3 {
+  text-align: center;
 }
 
 #fb {
   color: #f7f7f7;
   background-color: #3c5997;
-  text-decoration: none;
   padding: 1em;
   padding-left: 5em;
   padding-right: 5em;
+  border: none;
+  border-radius: 3px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: 1em;
 }
 
 #google {
   color: #f7f7f7;
   background-color: #de4a32;
-  text-decoration: none;
   padding: 1em;
   padding-left: 5.55em;
   padding-right: 5.55em;
+  border: none;
+  border-radius: 3px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
 }
 
 /* Email sign up */
