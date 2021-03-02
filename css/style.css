@@ -184,11 +184,9 @@ input {
 }
 
 #formwrap {
+  display: grid;
   margin-left: 2em;
-}
-
-#formwrap > * {
-  display: block;
+  margin-right: 2em;
 }
 
 #joinwrap {
