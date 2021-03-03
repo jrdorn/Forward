@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 body {
-  background-color: #005aeb;
+  background-color: #0050d1;
 }
 
 body > * {
@@ -18,6 +18,14 @@ body {
   padding: 0;
   font-size: 10px;
   color: #001959;
+}
+
+h1 {
+  margin-left: 0.5em;
+}
+
+.footer > * {
+  margin-left: 2em;
 }
 
 /* alternative box model */
@@ -39,11 +47,12 @@ html {
 
 .footer {
   grid-area: footer;
+  color: #0050d1;
 }
 
 .subhead {
   grid-area: subhead;
-  background-color: #005aeb;
+  background-color: #0050d1;
   color: #f7f7f7;
   font-size: 2rem;
   text-align: center;
@@ -247,6 +256,21 @@ input {
     "socialmedia"
     "createacct"
     "footer";
+}
+
+/* general styling */
+
+.login {
+  background-color: #0050d1;
+  color: #f7f7f7;
+  text-align: center;
+}
+
+.login a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 1.5rem;
 }
 
 /* || Home */
