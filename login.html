@@ -9,33 +9,58 @@
     </head>
     <body id = 'login'>
 
+
         <!-- header -->
         <header class='head'>
-            <h1 id="top">Travelist</h1>
+            <h1>Travelist</h1>
         </header>
 
 
         <!-- login -->
         <section class='login'>
-            <p>login</p>
+            <h3 id='emailhead'>Log In</h3>
+            <form>
+                <div id="formwrap">    
+                    <label class="label" for="email">Email </label>
+                    <input class="textinput" type="text" name="email" id="email" placeholder="Email" required="required">
+    
+                    <label for="password">Password </label>
+                    <input class="textinput" type="text" name="password" id="password" placeholder="Password" required="required">
+    
+                </div>
+                
+                <p>Remember info</p>
+
+                <p>Forgot password?</p>
+                <div id="joinwrap">
+                    <input type="submit" name="commit" id="join" value="Log In">
+                </div>
+            </form>
         </section>
+
 
         <!-- socialmedia -->
         <section class='socialmedia'>
-            <p>facebook</p>
-            <p>google</p>
+            <h3>Or</h3>
+            <input type="submit" id="fb" value="Continue with Facebook">
+            <input type="submit" id="google" value="Continue with Google">
         </section>
 
-        <!-- createacct -->
+
+        <!-- create account-->
         <section class='createacct'>
-            <p>create account</p>
+            <p>Don't have an account? </p>
+            <a href='signup.html'>Sign Up</a>
         </section>
-            
+
 
         <!-- footer -->
         <footer class='footer'>
-            <p>ⓒ 2021 by Travelist. All rights reserved.</p>
+            <section>
+                <p>ⓒ 2021 by Travelist. All rights reserved.</p>
+            </section>
         </footer>
+
     </body>
 </html>
 
