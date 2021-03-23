@@ -245,6 +245,21 @@ input {
   margin-bottom: 2em;
 }
 
+/* login link styling  */
+
+.log {
+  background-color: #0050d1;
+  color: #f7f7f7;
+  text-align: center;
+}
+
+.log a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 1.5rem;
+}
+
 /* || Login */
 
 /* login grid */
@@ -260,13 +275,13 @@ input {
 
 /* general styling */
 
-.login {
+.createacct {
   background-color: #0050d1;
   color: #f7f7f7;
   text-align: center;
 }
 
-.login a {
+.createacct a {
   font-weight: bold;
   text-decoration: none;
   color: #f7f7f7;
