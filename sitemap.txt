@@ -15,6 +15,7 @@ home.html
 >trips
 >friends list
 >message screen
+>trips screen
 >logout button
 
 
