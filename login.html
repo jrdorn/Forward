@@ -20,26 +20,21 @@
         <section class='login'>
             <h3 id='emailhead'>Log In</h3>
             <form>
-                <div id="formwrap">    
+                <div id="lformwrap">    
                     <label class="label" for="email">Email </label>
                     <input class="textinput" type="text" name="email" id="email" placeholder="Email" required="required">
     
                     <label for="password">Password </label>
-                    <input class="textinput" type="text" name="password" id="password" placeholder="Password" required="required">
-    
+                    <input class="textinput" type="text" name="password" id="lpassword" placeholder="Password" required="required">
                 </div>
-                
+
                 <div id='remforgot'>
-                    <div id='rflex'>
-                        <label id='remember'><input type='checkbox' name='checkbox' value='value'>Remember info</label>
-                    </div>
-                    <p>Forgot password?</p>
+                    <label id='cbox'><input type='checkbox' id='ckbox'>Remember me</label>
+                    <p id='forgot'>Forgot password?</p>
                 </div>
-
-
 
                 <div id="joinwrap">
-                    <input type="submit" name="commit" id="join" value="Log In">
+                    <input type="submit" name="commit" id="logbtn" value="Log In">
                 </div>
             </form>
         </section>

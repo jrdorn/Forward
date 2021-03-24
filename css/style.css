@@ -204,7 +204,7 @@ input {
   text-align: center;
 }
 
-#formwrap {
+#sformwrap {
   display: grid;
   margin-left: 2em;
   margin-right: 2em;
@@ -279,6 +279,7 @@ input {
   background-color: #0050d1;
   color: #f7f7f7;
   text-align: center;
+  margin-bottom: 2em;
 }
 
 .createacct a {
@@ -288,11 +289,42 @@ input {
   font-size: 1.5rem;
 }
 
+/* log in form */
+
+#lformwrap {
+  display: grid;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#lpassword {
+  margin-bottom: 0;
+}
+
 /* remember info/ forgot password positioning */
 
 #remforgot {
   display: flex;
   justify-content: space-between;
+  margin: 2em;
+  margin-top: 0;
+}
+
+#cbox {
+  margin-top: 1.32rem; /*evenly space checkbox with forgot password link*/
+}
+
+/* Log in button */
+
+#logbtn {
+  background-color: #ed6404;
+  color: #f7f7f7;
+  padding: 0.8em;
+  padding-left: 13.8em;
+  padding-right: 13.8em;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 2em;
 }
 
 /* || Home */
