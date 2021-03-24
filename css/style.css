@@ -288,6 +288,13 @@ input {
   font-size: 1.5rem;
 }
 
+/* remember info/ forgot password positioning */
+
+#remforgot {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* || Home */
 
 /* home grid */
