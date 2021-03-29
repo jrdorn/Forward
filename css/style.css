@@ -347,6 +347,7 @@ input {
   grid-template-areas:
     "header"
     "navbar"
+    "invite"
     "friendlist"
     "footer";
 }
