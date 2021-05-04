@@ -1,78 +1,112 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Travelist</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel='shortcut icon' href='img/travelist-favicon.png' type='image/x-icon'>
-    </head>
-    <body id = 'signup'>
+  <head>
+    <title>Travelist</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/travelist-favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="signup">
+    <!-- header -->
+    <header class="head">
+      <h1>Travelist</h1>
+    </header>
 
-        <!-- header -->
-        <header class='head'>
-            <h1>Travelist</h1>
-        </header>
+    <!-- subhead -->
+    <section class="subhead">
+      <h2>See the World, Together</h2>
+    </section>
 
+    <!-- socialmedia -->
+    <section class="socialmedia">
+      <h3>New to Travelist?</h3>
+      <input type="submit" id="fb" value="Sign Up with Facebook" />
+      <input type="submit" id="google" value="Sign Up with Google" />
+    </section>
 
-        <!-- subhead -->
-        <section class='subhead'>
-            <h2>See the World, Together</h2>
-        </section>
+    <!-- email -->
+    <section class="email">
+      <h3 id="emailhead">Sign Up with Email</h3>
+      <form action="home.html">
+        <div id="sformwrap">
+          <label class="label" for="first_name">First name </label>
+          <input
+            class="textinput"
+            type="text"
+            name="first_name"
+            id="first_name"
+            placeholder="First name"
+            required="required"
+          />
 
+          <label class="label" for="last_name">Last name </label>
+          <input
+            class="textinput"
+            type="text"
+            name="last_name"
+            id="last_name"
+            placeholder="Last name"
+            required="required"
+          />
 
-        <!-- socialmedia -->
-        <section class='socialmedia'>
-            <h3>New to Travelist?</h3>
-            <input type="submit" id="fb" value="Sign Up with Facebook">
-            <input type="submit" id="google" value="Sign Up with Google">
-        </section>
+          <label class="label" for="email">Email </label>
+          <input
+            class="textinput"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required="required"
+          />
 
+          <label for="password">Password </label>
+          <label class="label" for="password" id="sublabel"
+            >Must be at least 10 characters</label
+          >
+          <input
+            class="textinput"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required="required"
+            minlength="10"
+          />
 
-        <!-- email -->
-        <section class='email'>
-            <h3 id='emailhead'>Sign Up with Email</h3>
-            <form action='home.html'>
-                <div id="sformwrap">
-                    <label class="label" for="first_name">First name </label>
-                    <input class="textinput" type="text" name="first_name" id="first_name" placeholder="First name" required="required">
-    
-                    <label class="label" for="last_name">Last name </label>
-                    <input class="textinput" type="text" name="last_name" id="last_name" placeholder="Last name" required="required">
-    
-                    <label class="label" for="email">Email </label>
-                    <input class="textinput" type="email" name="email" id="email" placeholder="Email" required="required">
-    
-                    <label for="password">Password </label>
-                    <label class="label" for="password" id="sublabel">Must be at least 10 characters</label>
-                    <input class="textinput" type="password" name="password" id="password" placeholder="Password" required="required" minlength="10">
-    
-                    <label class="label" for="confirmpassword">Confirm password </label>
-                    <input class="textinput" type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm password" required="required" minlength="10">
-                </div>
-                
-                <div id="joinwrap">
-                    <input type="submit" name="commit" id="join" value="Join">
-                </div>
-            </form>
-        </section>
+          <label class="label" for="confirmpassword">Confirm password </label>
+          <input
+            class="textinput"
+            type="password"
+            name="confirmpassword"
+            id="confirmpassword"
+            placeholder="Confirm password"
+            required="required"
+            minlength="10"
+          />
+        </div>
 
+        <div id="joinwrap">
+          <input type="submit" name="commit" id="join" value="Join" />
+        </div>
+      </form>
+    </section>
 
-        <!-- login -->
-        <section class='log'>
-            <p>Already have an account? </p>
-            <a href='login.html'>Log In</a>
-        </section>
+    <!-- login -->
+    <section class="log">
+      <p>Already have an account?</p>
+      <a href="login.html">Log In</a>
+    </section>
 
-
-        <!-- footer -->
-        <footer class='footer'>
-            <section>
-                <p>ⓒ 2021 by Travelist. All rights reserved.</p>
-            </section>
-        </footer>
-
-    </body>
+    <!-- footer -->
+    <footer class="footer">
+      <section>
+        <p>ⓒ 2021 by Travelist. All rights reserved.</p>
+      </section>
+    </footer>
+  </body>
 </html>
-
-

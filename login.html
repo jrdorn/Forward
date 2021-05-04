@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Travelist</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel='shortcut icon' href='img/travelist-favicon.png' type='image/x-icon'>
-    </head>
-    <body id = 'login'>
+  <head>
+    <title>Travelist</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/travelist-favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="login">
+    <!-- header -->
+    <header class="head">
+      <h1>Travelist</h1>
+    </header>
 
+    <!-- login -->
+    <section class="login">
+      <h3 id="emailhead">Log In</h3>
+      <form action="home.html">
+        <div id="lformwrap">
+          <label class="label" for="email">Email </label>
+          <input
+            class="textinput"
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required="required"
+          />
 
-        <!-- header -->
-        <header class='head'>
-            <h1>Travelist</h1>
-        </header>
+          <label for="password">Password </label>
+          <input
+            class="textinput"
+            type="password"
+            name="password"
+            id="lpassword"
+            placeholder="Password"
+            required="required"
+          />
+        </div>
 
+        <div id="remforgot">
+          <label id="cbox"
+            ><input type="checkbox" id="ckbox" />Remember me</label
+          >
+          <p id="forgot">Forgot password?</p>
+        </div>
 
-        <!-- login -->
-        <section class='login'>
-            <h3 id='emailhead'>Log In</h3>
-            <form action='home.html'>
-                <div id="lformwrap">    
-                    <label class="label" for="email">Email </label>
-                    <input class="textinput" type="text" name="email" id="email" placeholder="Email" required="required">
-    
-                    <label for="password">Password </label>
-                    <input class="textinput" type="password" name="password" id="lpassword" placeholder="Password" required="required">
-                </div>
+        <div id="joinwrap">
+          <input type="submit" name="commit" id="logbtn" value="Log In" />
+        </div>
+      </form>
+    </section>
 
-                <div id='remforgot'>
-                    <label id='cbox'><input type='checkbox' id='ckbox'>Remember me</label>
-                    <p id='forgot'>Forgot password?</p>
-                </div>
+    <!-- socialmedia -->
+    <section class="socialmedia">
+      <h3>Or</h3>
+      <input type="submit" id="fb" value="Continue with Facebook" />
+      <input type="submit" id="google" value="Continue with Google" />
+    </section>
 
-                <div id="joinwrap">
-                    <input type="submit" name="commit" id="logbtn" value="Log In">
-                </div>
-            </form>
-        </section>
+    <!-- create account-->
+    <section class="createacct">
+      <p>Don't have an account?</p>
+      <a href="signup.html">Sign Up</a>
+    </section>
 
-
-        <!-- socialmedia -->
-        <section class='socialmedia'>
-            <h3>Or</h3>
-            <input type="submit" id="fb" value="Continue with Facebook">
-            <input type="submit" id="google" value="Continue with Google">
-        </section>
-
-
-        <!-- create account-->
-        <section class='createacct'>
-            <p>Don't have an account? </p>
-            <a href='signup.html'>Sign Up</a>
-        </section>
-
-
-        <!-- footer -->
-        <footer class='footer'>
-            <section>
-                <p>ⓒ 2021 by Travelist. All rights reserved.</p>
-            </section>
-        </footer>
-
-    </body>
+    <!-- footer -->
+    <footer class="footer">
+      <section>
+        <p>ⓒ 2021 by Travelist. All rights reserved.</p>
+      </section>
+    </footer>
+  </body>
 </html>
-
-

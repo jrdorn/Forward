@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Travelist</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel='shortcut icon' href='img/travelist-favicon.png' type='image/x-icon'>
+  <head>
+    <title>Travelist</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/travelist-favicon.png"
+      type="image/x-icon"
+    />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-        
-        <script type="text/javascript" src="js/scripts.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
 
-    </head>
+  <body id="activities">
+    <!-- header -->
+    <header class="head">
+      <h1 id="top">Travelist</h1>
+    </header>
 
-    <body id = 'activities'>
+    <!-- navbar -->
+    <nav class="navbar">
+      <ul class="nav nav-tabs">
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="flights.html">Flights</a></li>
+        <li class="active"><a href="#">Activities</a></li>
+      </ul>
+    </nav>
 
-        <!-- header -->
-        <header class='head'>
-            <h1 id="top">Travelist</h1>
-        </header>
+    <!-- asearch -->
+    <section class="asearch">
+      <form>
+        <label for="destination">Destination: </label>
+        <select
+          class="city-dropdown"
+          id="destination"
+          name="destination"
+        ></select>
+      </form>
+      <form>
+        <label for="date">Date: </label>
+        <input class="calendarpickr" type="text" id="date" name="date" />
+      </form>
+      <br />
+      <form>
+        <label for="time">Time: </label>
+        <input class="timepickr" type="text" id="time" name="time" />
+      </form>
+    </section>
 
-        <!-- navbar -->
-        <nav class='navbar'>
-            <ul class="nav nav-tabs">
-                <li ><a href="trips.html">Trips</a></li>
-                <li><a href="flights.html">Flights</a></li>
-                <li class="active"><a href="#">Activities</a></li>
-            </ul>
-        </nav>
-
-        <!-- asearch -->
-        <section class='asearch'>
-            <form>
-                <label for="destination">Destination: </label>
-                <select class="city-dropdown" id="destination" name="destination"></select>
-            </form>
-            </form>
-            <form>
-                <label for="date">Date: </label>
-                <input class="calendarpickr" type="text" id="date" name="date">
-            </form>
-            <br>
-            <form>
-                <label for="time">Time: </label>
-                <input class="timepickr" type="text" id="time" name="time">
-            </form>
-        </section>
-            
-            <!-- footer -->
-            <footer class='footer'>
-                <p>ⓒ 2021 by Travelist. All rights reserved.</p>
-            </footer>
-    </body>
+    <!-- footer -->
+    <footer class="footer">
+      <p>ⓒ 2021 by Travelist. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
