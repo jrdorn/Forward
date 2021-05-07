@@ -11,7 +11,7 @@ login.html
 
 
 
-!home.html
+home.html
 >trips
 >friends list
 >message screen

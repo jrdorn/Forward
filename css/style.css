@@ -24,8 +24,9 @@ h1 {
   margin-left: 0.5em;
 }
 
-.footer > * {
-  margin-left: 2em;
+.footer {
+  display: flex;
+  justify-content: center;
 }
 
 /* alternative box model */
@@ -430,7 +431,7 @@ ul li a:hover {
 }
 
 ul > * {
-  border-top: .1em solid #eaeaea;
+  border-top: 0.1em solid #eaeaea;
   padding: 1em;
   padding-left: 0;
   padding-right: 0;
@@ -439,8 +440,6 @@ ul > * {
 .hideme {
   display: none;
 }
-
-
 
 /* || Home */
 
@@ -451,8 +450,7 @@ ul > * {
     "header"
     "destinations"
     "footer";
-    grid-template-rows: auto 1fr auto; 
-}
+  grid-template-rows: auto 1fr auto;
 }
 
 /* || Friends */
