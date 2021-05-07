@@ -329,6 +329,7 @@ input {
 
 /* || Logged in: Header */
 
+/* Hamburger icon / menu transition */
 .spinner-master {
   position: relative;
   margin: 50px auto;
@@ -351,14 +352,12 @@ input {
   top: 10px;
   left: 0;
 }
-.spinner-master .spinner1,
-.spinner-master .spinner2,
-.spinner-master .spinner3,
-.spinner-master .spinner4 {
+
+.spinner-master .spinner {
   position: absolute;
   height: 5px;
   width: 100%;
-  background-color: #000;
+  background-color: #27364c;
 }
 .spinner-master .diagonal.part-1 {
   position: relative;
@@ -374,43 +373,42 @@ input {
   float: left;
   margin-top: calc(5px * 1.3);
 }
-.spinner-master input[type="checkbox"]:checked ~ .spinner-spin1 > .horizontal,
-.spinner-master input[type="checkbox"]:checked ~ .spinner-spin2 > .horizontal,
-.spinner-master input[type="checkbox"]:checked ~ .spinner-spin3 > .horizontal,
-.spinner-master input[type="checkbox"]:checked ~ .spinner-spin4 > .horizontal {
+.spinner-master input[type="checkbox"]:checked ~ .spinner-spin > .horizontal {
   opacity: 0;
 }
+
 .spinner-master
   input[type="checkbox"]:checked
-  ~ .spinner-spin1
-  > .diagonal.part-2,
-.spinner-master
-  input[type="checkbox"]:checked
-  ~ .spinner-spin2
-  > .diagonal.part-2,
-.spinner-master
-  input[type="checkbox"]:checked
-  ~ .spinner-spin3
-  > .diagonal.part-2,
-.spinner-master
-  input[type="checkbox"]:checked
-  ~ .spinner-spin4
+  ~ .spinner-spin
   > .diagonal.part-2 {
   margin-top: calc(-1 * (5px + (5px * 2.2)));
 }
-/*Style two*/
 .spinner-master
   input[type="checkbox"]:checked
-  ~ .spinner-spin2
+  ~ .spinner-spin
   > .diagonal.part-1 {
   transform: rotate(135deg);
 }
 .spinner-master
   input[type="checkbox"]:checked
-  ~ .spinner-spin2
+  ~ .spinner-spin
   > .diagonal.part-2 {
   transform: rotate(-135deg);
 }
+
+/* dropdown menu  */
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+/* ********************************** */
+/* ********************************** */
+/* ********************************** */
 
 /* || Home */
 
@@ -419,7 +417,6 @@ input {
 #home {
   grid-template-areas:
     "header"
-    "navbar"
     "destinations"
     "footer";
 }
@@ -431,7 +428,6 @@ input {
 #friends {
   grid-template-areas:
     "header"
-    "navbar"
     "invite"
     "friendlist"
     "footer";
@@ -444,7 +440,6 @@ input {
 #messages {
   grid-template-areas:
     "header"
-    "navbar"
     "messages"
     "footer";
 }
@@ -456,7 +451,6 @@ input {
 #trips {
   grid-template-areas:
     "header"
-    "navbar"
     "create"
     "popular"
     "saved"
@@ -470,7 +464,6 @@ input {
 #flights {
   grid-template-areas:
     "header"
-    "navbar"
     "fsearch"
     "footer";
 }
@@ -482,7 +475,6 @@ input {
 #activities {
   grid-template-areas:
     "header"
-    "navbar"
     "asearch"
     "footer";
 }
