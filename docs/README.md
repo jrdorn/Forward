@@ -25,6 +25,7 @@ Project is created with:
 - HTML5
 - CSS3
 - JavaScript
+- jQuery
 
 ## Credit
 
