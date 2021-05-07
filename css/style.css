@@ -112,8 +112,7 @@ html {
 
 body {
   display: grid;
-  gap: 2em;
-  /* grid-template-columns: 100%; */
+  gap: 1em;
 }
 
 html,
@@ -416,15 +415,32 @@ input {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 ul li a {
   text-decoration: none;
+  color: #27364c;
+  font-size: 1.5rem;
+  margin-left: 1em;
+}
+
+ul li a:hover {
+  color: #ed6404;
+}
+
+ul > * {
+  border-top: .1em solid #eaeaea;
+  padding: 1em;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .hideme {
   display: none;
 }
+
+
 
 /* || Home */
 
@@ -435,6 +451,8 @@ ul li a {
     "header"
     "destinations"
     "footer";
+    grid-template-rows: auto 1fr auto; 
+}
 }
 
 /* || Friends */

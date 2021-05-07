@@ -28,6 +28,6 @@ $(document).ready(function () {
 
   //Toggle navbar on clicking hamburger icon in mobile
   $("#spinner-form").on("click", function () {
-    $("nav").toggle();
+    $("nav").toggle(".hideme");
   });
 });
