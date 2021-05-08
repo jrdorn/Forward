@@ -1,4 +1,13 @@
 $(document).ready(function () {
+  //Pexel API
+  import { createClient } from "pexels";
+  const client = createClient(
+    "563492ad6f917000010000017d4afd1fc5a64199bbb25d9baabcb9aa"
+  );
+
+  client.photos.show({ id: 6543352 }).then((photo) => {
+    console.log(photo);
+  });
   // datepicker for Flights and Stuff to Do
   // flatpickr(".calendarpickr", {
   //   minDate: "today",
@@ -30,5 +39,4 @@ $(document).ready(function () {
   $("#spinner-form").on("click", function () {
     $("nav").toggle(".hideme");
   });
-  //Pexel API 563492ad6f917000010000017d4afd1fc5a64199bbb25d9baabcb9aa
 });
