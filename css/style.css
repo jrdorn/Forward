@@ -453,6 +453,13 @@ ul > * {
   grid-template-rows: auto 1fr auto;
 }
 
+/* destinations */
+
+.destinations {
+  display: flex;
+  justify-content: center;
+}
+
 /* || Friends */
 
 /* friends grid */

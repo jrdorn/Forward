@@ -1,6 +1,6 @@
 $(document).ready(function () {
   //Pexel API
-  import { createClient } from "pexels";
+  import { createClient } from "../node_modules/pexels/dist/createClient";
   const client = createClient(
     "563492ad6f917000010000017d4afd1fc5a64199bbb25d9baabcb9aa"
   );
