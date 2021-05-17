@@ -332,7 +332,6 @@ input {
 /* Hamburger icon / menu transition */
 .spinner-master {
   position: relative;
-  /* margin: 50px auto; */
   height: calc(3px * 10);
   width: calc(3px * 10);
 }
@@ -486,6 +485,7 @@ ul > * {
     "invite"
     "friendlist"
     "footer";
+  grid-template-rows: auto auto 1fr auto;
 }
 
 /* || Messages */

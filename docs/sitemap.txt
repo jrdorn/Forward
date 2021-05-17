@@ -4,7 +4,7 @@ Messages
 Trips
 Flights
 Activities 
-Responsive
+Make all responsive
 Pexels API
 
 
