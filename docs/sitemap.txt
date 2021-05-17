@@ -1,5 +1,12 @@
 TODO:
+Friends
+Messages 
+Trips
+Flights
+Activities 
+Responsive
 Pexels API
+
 
 signup.html
 >facebook or google
@@ -23,18 +30,18 @@ home.html
 
 
 
-!friends.html
+friends.html
 >search and add
 
 
 
-!messages.html
+messages.html
 >compose message
 >read messages
 
 
 
-!trips.html
+trips.html
 >create trip
 >add friends
 >add flights 
@@ -42,11 +49,11 @@ home.html
 
 
 
-!flights.html
+flights.html
 >search flights
 >add flights
 
 
-!activities.html 
+activities.html 
 >search activities
 >add activities 
