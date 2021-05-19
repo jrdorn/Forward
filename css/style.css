@@ -654,8 +654,25 @@ ul > * {
   font-size: 1.5rem;
 }
 
-.divTrip p {
+.dsub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dsub:first-child {
+  margin-right: auto;
+}
+
+.dsub span {
   font-size: 1em;
+}
+
+.dsub span a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #001959;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /* || Flights */
