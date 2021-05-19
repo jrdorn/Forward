@@ -746,3 +746,43 @@ ul > * {
     "footer";
   grid-template-rows: auto 1fr auto auto;
 }
+
+/* activity form */
+
+.asearch h3 {
+  padding-left: 1em;
+  margin-top: 3em;
+}
+
+.asform {
+  display: grid;
+  grid-gap: 1em;
+}
+
+#loc,
+#act {
+  font: inherit;
+  font-size: 1.5rem;
+  color: inherit;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0.75em;
+  padding-left: 1em;
+  border: 0.1em solid #eaeaea;
+  border-radius: 0.5em;
+}
+
+/* activity add button */
+
+#asbutton {
+  color: #f7f7f7;
+  background-color: #0050d1;
+  padding: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+  border: none;
+  border-radius: 3px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: 1em;
+}
