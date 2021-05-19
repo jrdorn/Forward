@@ -694,6 +694,46 @@ ul > * {
   text-decoration: none;
 }
 
+/* flight form */
+
+.fsearch h3 {
+  padding-left: 1em;
+  margin-top: 3em;
+}
+
+.flightform {
+  display: grid;
+  grid-gap: 1em;
+}
+
+#leaving,
+#going {
+  font: inherit;
+  font-size: 1.5rem;
+  color: inherit;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0.75em;
+  padding-left: 1em;
+  border: 0.1em solid #eaeaea;
+  border-radius: 0.5em;
+}
+
+/* flight search button */
+
+#flightbutton {
+  color: #f7f7f7;
+  background-color: #0050d1;
+  padding: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+  border: none;
+  border-radius: 3px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: 1em;
+}
+
 /* || Activities */
 
 /* activities grid */
