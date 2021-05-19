@@ -1,9 +1,9 @@
 TODO:
-
 Messages 
 Trips
 Flights
 Activities 
+
 Make all responsive
 Pexels API
 

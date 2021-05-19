@@ -14,20 +14,29 @@
   <body id="messages">
     <!-- header -->
     <header class="head">
-      <h1>F o r w a r d</h1>
-    </header>
+      <div class="shead">
+        <h1>F o r w a r d</h1>
+        <!-- mobile hamburger bar -->
+        <div class="spinner-master">
+          <input type="checkbox" id="spinner-form" />
+          <label for="spinner-form" class="spinner-spin">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+          </label>
+        </div>
+      </div>
 
-    <!-- navbar -->
-    <!-- (dropdown navbar) -->
-    <nav class="navbar">
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="friends.html">Friends</a></li>
-        <li><a href="#">Messages</a></li>
-        <li><a href="trips.html">Trips</a></li>
-        <li><a href="signup.html">Logout</a></li>
-      </ul>
-    </nav>
+      <!-- mobile dropdown navbar -->
+      <nav id="hamnav" class="hideme">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="friends.html">Friends</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="signup.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- messages -->
     <section class="messages">
