@@ -631,6 +631,44 @@ ul > * {
   border-radius: 3px;
 }
 
+/* popular trips */
+
+.popular {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.popular h2 {
+  font-size: 2.25rem;
+  padding-left: 2em;
+}
+
+/* saved trips  */
+
+.saved {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.saved h2 {
+  font-size: 2.25rem;
+  padding-left: 2em;
+}
+
+/* individual trip styles */
+
+.divTrip {
+  padding-left: 1em;
+}
+
+.divTrip h3 {
+  font-size: 1.5rem;
+}
+
+.divTrip p {
+  font-size: 1em;
+}
+
 /* || Activities */
 
 /* activities grid */
