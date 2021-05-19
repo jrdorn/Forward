@@ -598,6 +598,7 @@ ul > * {
     "popular"
     "saved"
     "footer";
+  grid-template-rows: auto auto 1fr 1fr auto;
 }
 
 /* || Flights */
@@ -609,6 +610,25 @@ ul > * {
     "header"
     "fsearch"
     "footer";
+}
+
+/* create a trip */
+
+.create {
+  background-color: #0050d1;
+  display: flex;
+  justify-content: center;
+}
+
+.create button {
+  color: #f7f7f7;
+  background-color: #de4a32;
+  margin: 0;
+  padding: 1em;
+  padding-left: 6em;
+  padding-right: 6em;
+  border: none;
+  border-radius: 3px;
 }
 
 /* || Activities */
