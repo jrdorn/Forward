@@ -671,6 +671,29 @@ ul > * {
   grid-template-rows: auto 1fr auto auto;
 }
 
+/* back to trips button  */
+
+.bttrips {
+  background-color: #0050d1;
+  display: flex;
+  justify-content: center;
+}
+
+.bttrips button {
+  background-color: #de4a32;
+  margin: 0;
+  padding: 1em;
+  padding-left: 6em;
+  padding-right: 6em;
+  border: none;
+  border-radius: 3px;
+}
+
+.bttrips button a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
 /* || Activities */
 
 /* activities grid */
