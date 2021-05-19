@@ -488,6 +488,64 @@ ul > * {
   grid-template-rows: auto auto 1fr auto;
 }
 
+/* invite section  */
+
+.invite {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.invite h3 {
+  margin: 0;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+  background-color: #0050d1;
+  color: #eaeaea;
+}
+
+.invite p {
+  margin-left: 1.35em;
+  padding-top: 0.5em;
+}
+
+/* invite button  */
+
+.invite button {
+  background-color: #ed6404;
+  color: #f7f7f7;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1.35em;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 3px;
+}
+
+/* friends list */
+
+.friendlist {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.friendlist h3 {
+  margin: 0;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+  background-color: #0050d1;
+  color: #eaeaea;
+}
+
+.friendlist ul {
+  margin: 0;
+  padding: 0;
+}
+
+.friendlist ul li {
+  padding-left: 2em;
+}
+
 /* || Messages */
 
 /* messages grid */

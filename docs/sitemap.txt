@@ -1,5 +1,5 @@
 TODO:
-Friends
+
 Messages 
 Trips
 Flights
