@@ -555,6 +555,36 @@ ul > * {
     "header"
     "messages"
     "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+/* individual messages */
+
+.messages article {
+  padding-left: 3em;
+  padding-bottom: 3em;
+  border-bottom: 0.2em solid #eaeaea;
+}
+
+.messages article h2 {
+  font-size: 2.25rem;
+}
+
+.messages article h3 {
+  font-size: 1.75rem;
+}
+
+.messages article:last-of-type {
+  border: none;
+}
+
+/* message bar */
+
+.mbar {
+  font: inherit;
+  color: inherit;
+  font-size: 1.5em;
+  padding: 0.5em;
 }
 
 /* || Trips */
