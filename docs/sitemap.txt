@@ -1,10 +1,7 @@
 TODO: 
-Trips
-Flights
-Activities 
-
 Make all responsive
 Pexels API
+Flight/ date picker
 
 
 signup.html

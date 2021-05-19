@@ -10,42 +10,44 @@
       href="img/forward-favicon.png"
       type="image/x-icon"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
-    />
-
     <script
       type="text/javascript"
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
     ></script>
-    <script
-      type="text/javascript"
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
     <script type="text/javascript" src="js/scripts.js"></script>
   </head>
 
   <body id="activities">
     <!-- header -->
     <header class="head">
-      <h1>F o r w a r d</h1>
-    </header>
+      <div class="shead">
+        <h1>F o r w a r d</h1>
+        <!-- mobile hamburger bar -->
+        <div class="spinner-master">
+          <input type="checkbox" id="spinner-form" />
+          <label for="spinner-form" class="spinner-spin">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+          </label>
+        </div>
+      </div>
 
-    <!-- navbar -->
-    <nav class="navbar">
-      <ul class="nav nav-tabs">
-        <li><a href="trips.html">Trips</a></li>
-        <li><a href="flights.html">Flights</a></li>
-        <li class="active"><a href="#">Activities</a></li>
-      </ul>
-    </nav>
+      <!-- mobile dropdown navbar -->
+      <nav id="hamnav" class="hideme">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="friends.html">Friends</a></li>
+          <li><a href="messages.html">Messages</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="signup.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- asearch -->
     <section class="asearch">
+      <h3>Activities</h3>
       <form>
         <label for="destination">Destination: </label>
         <select
@@ -63,6 +65,11 @@
         <label for="time">Time: </label>
         <input class="timepickr" type="text" id="time" name="time" />
       </form>
+    </section>
+
+    <!-- back to trips -->
+    <section class="bttrips">
+      <button>Back to Trips</button>
     </section>
 
     <!-- footer -->

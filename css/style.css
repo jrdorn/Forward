@@ -601,17 +601,6 @@ ul > * {
   grid-template-rows: auto auto 1fr 1fr auto;
 }
 
-/* || Flights */
-
-/* flights grid */
-
-#flights {
-  grid-template-areas:
-    "header"
-    "fsearch"
-    "footer";
-}
-
 /* create a trip */
 
 .create {
@@ -669,6 +658,19 @@ ul > * {
   font-size: 1em;
 }
 
+/* || Flights */
+
+/* flights grid */
+
+#flights {
+  grid-template-areas:
+    "header"
+    "fsearch"
+    "bttrips"
+    "footer";
+  grid-template-rows: auto 1fr auto auto;
+}
+
 /* || Activities */
 
 /* activities grid */
@@ -677,5 +679,7 @@ ul > * {
   grid-template-areas:
     "header"
     "asearch"
+    "bttrips"
     "footer";
+  grid-template-rows: auto 1fr auto auto;
 }
